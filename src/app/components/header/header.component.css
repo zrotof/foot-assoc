@@ -1,0 +1,48 @@
+header{
+        display: flex;
+        justify-content: space-between ;
+        align-items: center;
+        width: 100%;
+        position: fixed;
+        height: 5.5em;
+        z-index: 3;
+        padding: 10px 7%;
+        background-color: black;
+
+}
+
+.logo{
+    height: 70px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+}
+
+ul li{
+    display: inline;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+ul li a{
+    font-weight: 600;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+
+}
+
+.active-link, ul li a:hover{
+    color: green !important;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.burger{
+    display: none;
+}

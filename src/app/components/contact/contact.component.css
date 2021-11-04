@@ -1,0 +1,23 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7vh 0;
+}
+
+.contact-img{
+    margin:15vh 0;
+    height: 70vh;
+    width: 60vh;
+}
+
+.contact-info{
+    position: absolute;
+    width: 130vh;
+    background-color: rgba(0, 0, 0, 0.74);
+    padding: 4vh 8vh;
+    color: white;
+    font-size: 1.3em;
+    text-align: justify;
+    
+}

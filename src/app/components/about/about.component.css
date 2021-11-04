@@ -1,0 +1,97 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.histoire{
+    margin-top: 25vh;
+    width: 70%;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.432)),url("../../../assets/img/pelouse.jpeg");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7vh 2vh;
+    border-radius: 5px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+}
+
+
+.histoire-text{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4vh;
+    color: white;
+}
+
+.histoire-text-left,.histoire-text-right{
+    text-align: justify;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+}
+
+.bloc-mots{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vh;
+    width: 70%;
+}
+
+.bloc-mots-title{
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(102, 102, 102);
+    margin-bottom: 8vh;
+
+}
+
+.mots{
+    display: flex;
+    width: 100%;
+    margin-bottom: 6vh;
+    align-items: center;
+}
+
+.mots-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+
+    width: 100%;
+    margin-bottom: 6vh;
+    align-items: center;
+}
+
+.mots img{
+    height: 200px;
+    width: 300px;
+    margin-right: 3vh;
+    border-radius: 5px;
+}
+
+.mots-reverse img{
+    height: 200px;
+    width: 300px;
+    margin-left: 3vh;
+    border-radius: 5px;
+}
+
+.mot{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.2em;
+    color: rgb(102, 102, 102);
+}
+

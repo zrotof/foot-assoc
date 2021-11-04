@@ -1,0 +1,22 @@
+<header>
+    <img routerLink="/accueil" class="logo" src="../../../assets/img/logo-afr.png" alt="logo" >
+    <nav>
+        <ul>
+            <li><a routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}" routerLink="/accueil" >Accueil</a></li>
+            <li><a routerLinkActive="active-link" routerLink="/a-propos">À Propos</a></li>
+            <li><a routerLinkActive="active-link" routerLink="/joueurs">Joueurs</a></li>
+            <li><a routerLinkActive="active-link" routerLink="/defis">Défis & Tournois</a></li>
+            <li><a routerLinkActive="active-link" routerLink="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="burger" (click)="onBurgerMenu()">
+
+        <input type="checkbox" />
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+</header>

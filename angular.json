@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "assoc-foot-rennes"
+    }
+  },
+  "defaultProject": "assoc-foot-rennes",
+  "cli": {
+    "analytics": false
+  }
 }
